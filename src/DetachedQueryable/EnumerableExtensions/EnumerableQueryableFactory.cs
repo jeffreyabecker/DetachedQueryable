@@ -24,9 +24,6 @@ namespace DetachedQueryable.EnumerableExtensions
             return DetachedQuery.Attach(detachedQuery, new EnumerableQueryableFactory<T>(ctx));
         }
 
-        public static IQueryable<T> Search<T>(this IEnumerable<T> ctx, ISearch<T> search)
-        {
-            return Attach(ctx, search.Spec);
-        }
+
     }
 }

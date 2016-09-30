@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Data.Entity;
+using System.Linq;
 
 namespace DetachedQueryable.EntityFramework
 {
@@ -9,9 +10,6 @@ namespace DetachedQueryable.EntityFramework
             return DetachedQuery.Attach(detachedQuery, new EfQueryableFactory(ctx));
         }
 
-        public static IQueryable<T> Search<T>(this DbContext ctx, ISearch<T> search)
-        {
-            return Attach(ctx, search.Spec);
-        }
+
     }
 }

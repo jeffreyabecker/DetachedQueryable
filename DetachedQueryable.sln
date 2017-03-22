@@ -1,24 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F549A894-6602-4195-8DD5-68D6A7530634}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BF9EA43-3D9D-4AAC-B949-A343692921D7}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DetachedQueryable", "src\DetachedQueryable\DetachedQueryable.xproj", "{A812B7EC-1EB6-4D9B-BFA8-0E0F3133237F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetachedQueryable", "src\DetachedQueryable\DetachedQueryable.csproj", "{A812B7EC-1EB6-4D9B-BFA8-0E0F3133237F}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DetachedQueryable.NHibernate", "src\DetachedQueryable.NHibernate\DetachedQueryable.NHibernate.xproj", "{3BE76AD3-2ACF-4E55-A557-E0ADFD1F96F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetachedQueryable.NHibernate", "src\DetachedQueryable.NHibernate\DetachedQueryable.NHibernate.csproj", "{3BE76AD3-2ACF-4E55-A557-E0ADFD1F96F4}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DetachedQueryable.EntityFramework", "src\DetachedQueryable.EntityFramework\DetachedQueryable.EntityFramework.xproj", "{62A5DEBA-4DAE-4695-B8F5-7BC39754DEE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetachedQueryable.EntityFramework", "src\DetachedQueryable.EntityFramework\DetachedQueryable.EntityFramework.csproj", "{62A5DEBA-4DAE-4695-B8F5-7BC39754DEE1}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DetachedQueryable.Test", "src\DetachedQueryable.Test\DetachedQueryable.Test.xproj", "{8FF58F48-5F26-4E16-9903-15BB131E1D72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetachedQueryable.Test", "src\DetachedQueryable.Test\DetachedQueryable.Test.csproj", "{8FF58F48-5F26-4E16-9903-15BB131E1D72}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DetachedQueryable.EFCore", "src\DetachedQueryable.EFCore\DetachedQueryable.EFCore.xproj", "{BB52301F-C8FE-4AFF-9987-403A8E58D865}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DetachedQueryable.EFCore", "src\DetachedQueryable.EFCore\DetachedQueryable.EFCore.csproj", "{BB52301F-C8FE-4AFF-9987-403A8E58D865}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

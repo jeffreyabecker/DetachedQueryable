@@ -18,3 +18,6 @@ namespace DetachedQueryable.EFCore
         }
     }
 }
+namespace DetachedQueryable.EFCore
+{
+}

@@ -3,10 +3,10 @@ using System.Linq;
 
 namespace DetachedQueryable.EnumerableExtensions
 {
-    public class EnumerableQueryableFactory<T> : IQueryableFactory
+    public class EnumerableQueryableFactory<TEnumerable> : IQueryableFactory
     {
-        private readonly IEnumerable<T> _enumerable;
-        public EnumerableQueryableFactory(IEnumerable<T> enumerable)
+        private readonly IEnumerable<TEnumerable> _enumerable;
+        public EnumerableQueryableFactory(IEnumerable<TEnumerable> enumerable)
         {
             _enumerable = enumerable;
         }

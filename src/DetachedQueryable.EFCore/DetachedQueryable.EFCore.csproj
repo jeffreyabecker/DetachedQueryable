@@ -6,6 +6,13 @@
     <PackageId>DetachedQueryable.EFCore</PackageId>
     <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard1.6' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <Version>1.0.2</Version>
+    <Description>Detached Queryable EF Core Support</Description>
+    <Title>DetachedQueryable.EFCore</Title>
+    <Authors>Jeffreyabecker</Authors>
+    <ProjectURL>https://github.com/jeffreyabecker/DetachedQueryable</ProjectURL>
+    <PackageProjectUrl>https://github.com/jeffreyabecker/DetachedQueryable</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jeffreyabecker/DetachedQueryable</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
